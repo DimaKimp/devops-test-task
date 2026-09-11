@@ -39,20 +39,39 @@
 ```bash
 docker run -d -p 32777:32777 dimakimpinskiy/hello-world:1.0
 # Открыть http://localhost:32777
+```
 
-## Скриншоты
+### Через Kubernetes (Minikube)
 
-### Работающее приложение
+```bash
+minikube start --driver=docker
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+minikube service hello-world-service
+```
+
+## Скриншоты работы
+
+### Работающее приложение в браузере
+
 ![Browser](screenshots/10_browser.png)
 
 ### Схема архитектуры
+
 ![Scheme](screenshots/12_scheme.png)
 
 ### Поды в статусе Running
+
 ![Pods](screenshots/05_pods.png)
 
 ### Deployment с 2 репликами
+
 ![Deployments](screenshots/04_deployments.png)
 
-### Service NodePort
+### Service типа NodePort
+
 ![Services](screenshots/07_services.png)
+
+### Docker Hub: опубликованный образ
+
+![Docker Hub](screenshots/02_docker_hub_image.png)
