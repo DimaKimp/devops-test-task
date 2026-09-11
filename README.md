@@ -30,7 +30,7 @@
 ## Ссылки
 
 - Docker Hub: https://hub.docker.com/r/dimakimpinskiy/hello-world
-- GitHub: https://github.com/твой_username/devops-test-task
+- GitHub: https://github.com/DimaKimp/devops-test-task
 
 ## Как запустить локально
 
