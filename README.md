@@ -39,3 +39,20 @@
 ```bash
 docker run -d -p 32777:32777 dimakimpinskiy/hello-world:1.0
 # Открыть http://localhost:32777
+
+## Скриншоты
+
+### Работающее приложение
+![Browser](screenshots/10_browser.png)
+
+### Схема архитектуры
+![Scheme](screenshots/12_scheme.png)
+
+### Поды в статусе Running
+![Pods](screenshots/05_pods.png)
+
+### Deployment с 2 репликами
+![Deployments](screenshots/04_deployments.png)
+
+### Service NodePort
+![Services](screenshots/07_services.png)
